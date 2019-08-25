@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>VRacing Argentina</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" media="(max-width: 480px)" href="../css/mobile/loginM.css" />
+        <link rel="stylesheet" media="(min-width: 480px)" href="../css/tablet/indexT.css" />
+        <link rel="stylesheet" media="(min-width: 800px)" href="../css/desktop/indexD.css" />
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1"/>
+    </head>
+    <body>
+        <header>
+            <h1>VRacing Argentina</h1>
+            <input type="checkbox" id="check-menu"/>
+            <label for="check-menu">Menú</label>
+            <nav class="menu">
+                <a href="/login">Ingresá</a>
+                <a href="/register">Registrate</a>
+            </nav>
+        </header>
+        <main>
+            <h2>Ingresá</h2>
+            <form action="/login" method="POST">
+                <p>Email</p>
+                <input type="email" id="emailForm"/>
+                <p>Contraseña</p>
+                <input type="password"/>
+                <input type="submit" value="Ingresá"/>
+            </form>
+        </main>
+    </body>
+</html>
